@@ -12,12 +12,13 @@ int main()
 
 	int n = 1, i = 0, c = 0;
 
-	printf("Enter any number n:");
-	//scanf("%d", &n);
+	cout <<"Enter any number n:";
 	cin >> n;
 
 	for (i = 1; i <= n; i++)
 	{
+		cout << i;
+		cout << endl;
 		if (n % i == 0)
 		{
 			c++;
